@@ -6,8 +6,7 @@ class cors {
     {
         $allowed_domains = array(
             'http://localhost',
-            'http://localhost:8000',
-            '*.*.sbx.4over.com'
+            'http://localhost:8000'
         );
         
         if(in_array($_SERVER['HTTP_ORIGIN'], $allowed_domains)){
